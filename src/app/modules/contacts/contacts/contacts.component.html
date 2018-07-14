@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <input type="text" name="firstName" required [(ngModel)]="model.firstName" placeholder="First Name">
+  </div>
+  <div>
+    <input type="text" name="lastName" required [(ngModel)]="model.lastName" placeholder="Last Name">
+  </div>
+  <div>
+    <input type="text" name="phoneNumber" required [(ngModel)]="model.phoneNumber" placeholder="Phone Number">
+  </div>
+  <div>
+    <input type="email" name="email" email required [(ngModel)]="model.email" placeholder="Email">
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>

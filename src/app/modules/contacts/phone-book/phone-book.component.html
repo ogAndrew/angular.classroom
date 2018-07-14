@@ -1,0 +1,11 @@
+<div>
+  <p>
+    Contacts:
+  </p>
+  <ul>
+   <li *ngFor="let contact of contacts" class="list">
+      <p>{{contact.firstName}} {{contact.lastName}}: {{contact.phoneNumber}}, {{contact.email}}</p>
+    </li>
+  </ul>
+</div>
+

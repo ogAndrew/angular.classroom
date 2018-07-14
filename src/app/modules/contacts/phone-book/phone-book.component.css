@@ -1,0 +1,12 @@
+.list {
+    border: 1px solid black;
+    margin: 1%;
+    }
+    li {
+        list-style: none;
+    }
+    li:hover{
+        background-color: rgba(216, 138, 138, 0.712);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: yellow;
+    }
